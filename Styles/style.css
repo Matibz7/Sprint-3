@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Libre Baskerville', serif;
+}
+.navbar{
+    box-shadow: 10px 9px 30px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 30px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 30px -6px rgba(0,0,0,0.75);
+}
+.lista{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 17px;
+margin-left: 55%;
+}
+
+.lista li{
+margin: 15px;
+list-style: none;
+margin-top: 2px;
+
+
+}
+.lista li a{
+text-decoration: none;
+cursor: pointer;
+color: #000000;
+
+}
+.lista li a:hover{
+
+color: rgb(64, 134, 73);
+
+}
+.logo{
+width: 35%;
+height: 60px;
+margin-top: 15px;
+}
+
+body{
+    background-image:url(../images/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.parrafo{
+    background-color:rgb(64, 134, 73);
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    padding: 15px;
+    }
+    .cuestionario{
+        color: #000000;
+        margin: 10px 47%;
+        padding: 10px;
+        border: none;
+        text-decoration: none;
+        background-color:rgb(64, 134, 73);
+        border-radius: 10%;
+        width: 90px;
+        list-style: none;
+    }
+    .cuestionario a{
+       text-decoration: none;
+       cursor: pointer;
+       color: aliceblue;
+    }
+    .cuestionario a:hover{
+        color: #000000;
+    }
+.card{
+    box-shadow: 10px 9px 30px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 30px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 30px -6px rgba(0,0,0,0.75);
+margin-top: 50px;
+}
+.card-title{
+font-weight: bolder;
+
+}
+
+.btn-primary{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+background-color: rgb(35, 88, 42);
+
+
+
+}
+.footer{
+background-color: rgb(35, 88, 42);
+display: flex;
+flex-direction: row;
+text-align: center;
+justify-content: space-around;
+font-size: medium;
+color: aliceblue;
+height: 60px;
+ 
+}
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.footer__container{
+padding: 15px ;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.fa {
+    margin:  4px 15px;
+    width: 20px;
+    
+}
+
+@media (max-width: 320px){
+
+    *{
+        padding:0 ;
+        margin: 0;
+    }
+    
+    .lista{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        text-align:center;
+        margin: 70px;}
+    
+    
+    
+    .parrafo{
+        padding: 10px;
+        font-size: 16px;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;}
+        .card {
+            margin: 5px;}
+    .cuestionario{
+        margin-left: 38%;
+    }
+    .footer {
+        display:flex ;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-between;
+    }
+    
+
+    
+    .footer__container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align:center;
+    padding: 10px;}
+    .footer__container a{
+        font-size: 15px;
+    }
+}
+.fa {
+margin-left: 2px;
+    width: 15px;
+   
+    
+
+}

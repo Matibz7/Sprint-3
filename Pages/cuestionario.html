@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/cuestionario.css">
+    <link rel="icon" href="../images/pizzaa.png">
+    <title>Cuestionario</title>
+</head>
+<body>
+    <header class="header">
+        <h1>CUESTIONARIO</h1>
+    <p>Responde corecctamente y consigue un descuento de 30% en tu proximo pedido al contestar 3/4. <br>
+    ¡Mucha suerte!</p>
+    </header>
+    <div class="container">
+        <div  id="p0" class="pregunta">
+            <h3>¿Cuál es la pizza más clásica en Italia?</h3>
+            <label > <input type="radio" value="1" name="p0">Pizza Prosciutto Funghi</label>
+            <label > <input type="radio" value="2" name="p0">Pizza Margherita</label>
+            <label > <input type="radio" value="3" name="p0" >Pizza Marinara</label>
+            <label > <input type="radio" value="4" name="p0">Pizza Diavola</label>
+        </div>
+        <div id="p1" class="pregunta">
+            <h3>¿Cuál es la pizza más extravagante o única que se sirve en Italia?</h3>
+            <label > <input type="radio" value="1" name="p2" >Pizza Vegetariana</label>
+            <label > <input type="radio" value="2" name="p2" >Pizza Quattro Formaggi</label>
+            <label > <input type="radio" value="3" name="p2" >Pizza Capricciosa</label>
+            <label > <input type="radio" value="4" name="p2" >Pizza Frutti di Mare </label>
+        </div>
+        <div  id="p2" class="pregunta">
+            <h3>¿Cómo se llama la pizza con mariscos en Italia?</h3>
+            <label > <input type="radio" value="2" name="p3" >Pizza Boscaiola  </label>
+            <label > <input type="radio" value="1" name="p3" >Pizza Diavola  </label>
+            <label > <input type="radio" value="3" name="p3" >Pizza Prosciutto Funghi  </label>
+            <label > <input type="radio" value="4" name="p3" >Pizza Frutti di Mare  </label>
+        </div>
+        <div  id="p3" class="pregunta">
+            <h3>¿Cuál es la pizza más clásica en Italia?</h3>
+            <label > <input type="radio" value="1" name="p4">Pizza Boscaiola  </label>
+            <label > <input type="radio" value="2" name="p4" >Pizza Diavola  </label>
+            <label > <input type="radio" value="3" name="p4">pizza Margherita  </label>
+            <label > <input type="radio" value="4" name="p4" >Pizza Quattro formaggi  </label>
+        </div>
+        <button type="button" onclick="evaluarQuiz()">Evaluar</button>
+       <script src="../scripts/cuestionario.js"> </script>
+    </div>
+
+</body>
+</html>

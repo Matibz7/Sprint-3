@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Libre Baskerville', serif;
+}
+.navbar{
+    box-shadow: 10px 9px 30px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 30px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 30px -6px rgba(0,0,0,0.75);
+}
+.lista{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+font-size: 17px;
+margin-left: 55%;
+}
+
+.lista li{
+margin: 15px;
+list-style: none;
+margin-top: 2px;
+
+
+}
+.lista li a{
+text-decoration: none;
+cursor: pointer;
+color: #000000;
+
+}
+.lista li a:hover{
+
+color: rgb(64, 134, 73);
+
+}
+.logo{
+width: 35%;
+height: 60px;
+margin-top: 15px;
+}
+
+
+body{
+    background-image:url(../images/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }
+
+
+.Pedido{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(64, 134, 73);
+    margin: 8% 25%;
+    padding: 20px;
+    }
+.form input{
+    display: block;
+}
+.Pedido h2{
+    font-size: 50px;
+    
+    
+    }
